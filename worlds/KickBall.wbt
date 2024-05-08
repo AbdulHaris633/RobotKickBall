@@ -1,0 +1,72 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/robotstadium/protos/RobotstadiumSoccerField.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/robotis/darwin-op/protos/RobotisOp2.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/balls/protos/Ball.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.1569148042350538 -0.3871774627960944 -0.9085545423994388 5.444005713291833
+  position -3.4444183834303144 -6.55737868706319 4.513569893164131
+}
+TexturedBackground {
+  texture "dusk"
+}
+TexturedBackgroundLight {
+}
+RobotstadiumSoccerField {
+}
+RobotisOp2 {
+  hidden position_0_0 -1.582179589462586e-05
+  hidden position_0_1 -0.00016916016786614092
+  hidden position_0_2 -9.199072617875202e-05
+  hidden position_0_3 0.7233124383502202
+  hidden position_0_4 -0.8449884902371033
+  hidden rotation_10 0.5774230255147241 0.5773138873120296 0.5773138878652541 2.09439086583341
+  hidden position_10_0 0.17382360373991246
+  hidden rotation_11 1 0 0 0.6115763962600891
+  hidden rotation_15 0.5772913712325067 0.5773796199479156 0.5773798118823452 2.0945124881038457
+  hidden position_15_0 -0.0061281315840485484
+  hidden rotation_16 0 0 1 0.0061281315840811855
+  hidden position_16_0 0.6291997758978236
+  hidden rotation_17 -1 0 0 0.6291997758978235
+  hidden position_17_0 -0.9297104670108047
+  hidden rotation_18 1 0 0 0.9297104670108048
+  hidden position_18_0 -0.4938377247956719
+  hidden rotation_19 -1 0 0 0.4938377247956722
+  hidden position_19_0 -0.01374239984778763
+  hidden rotation_20 0 0 -1 0.013742399847778315
+  hidden rotation_21 0.5772908707983146 0.5773799897101439 0.5773799424774277 2.0944699003379528
+  hidden position_21_0 0.006172814917549385
+  hidden rotation_22 0 0 -1 0.006172814917531145
+  hidden position_22_0 -0.6292438128940551
+  hidden rotation_23 -1 0 0 0.6292438128940548
+  hidden position_23_0 0.929680793543274
+  hidden rotation_24 0.9999999999999999 0 0 0.9296807935432738
+  hidden position_24_0 0.493713315296761
+  hidden rotation_25 -0.9999999999999999 0 0 0.4937133152967606
+  hidden position_25_0 0.013939486601385673
+  hidden rotation_26 0 0 0.9999999999999999 0.013939486601395377
+  hidden rotation_27 0.6736684364182612 0.673668382441413 0.3038778509081323 2.5516310290583646
+  hidden position_27_0 0.3090869963452211
+  hidden rotation_28 0 0 1 0.4763130036547776
+  hidden position_28_0 -0.5124107809133852
+  hidden rotation_29 -1 0 0 2.0832107809133857
+  hidden rotation_30 0.6829263338923683 0.6829264813597054 0.25927407030781385 2.6341059089007364
+  hidden position_30_0 -0.31347828623491036
+  hidden rotation_31 0 0 -1 0.4719217137650882
+  hidden position_31_0 0.5077302783109849
+  hidden rotation_32 -1 0 0 2.078530278310985
+  translation 2.141511261864237 0.06354872773286284 0.31790393210008727
+  rotation -0.06472360734637202 0.7415548909953809 0.6677628308710373 0.25874767103040663
+  name "Soccer Player"
+  controller "KickBall"
+}
+Ball {
+  translation 3.7046300099070115 0.020590916177875184 0.03241367200004269
+  rotation 1.1994600103571969e-06 -3.6725301716139365e-07 -0.9999999999992133 0.5047059999989607
+  name "Testing Ball"
+}
